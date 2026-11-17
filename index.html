@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Paul School, Bisauli | Premier English Medium Convent School</title>
+    <meta name="description" content="De Paul School, Bilsi Road, Bisauli (U.P.) - Nurturing Excellence, Discipline, and Holistic Growth in English Medium Education. Admissions Open for 2026-27.">
+    
+    <!-- Google Fonts: Playfair Display for Heritage Convent Headings & Inter for Clean UI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            950: '#061626',
+                            900: '#0a2540',
+                            800: '#113559',
+                            700: '#184978',
+                        },
+                        skybrand: {
+                            500: '#1d6fb8',
+                            600: '#165a96',
+                        },
+                        gold: {
+                            300: '#F3D678',
+                            400: '#E5BF4B',
+                            500: '#d4a23c',
+                            600: '#b38324',
+                        },
+                        cream: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom animations and polish */
+        @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+            display: inline-flex;
+            white-space: nowrap;
+            animation: marquee 28s linear infinite;
+        }
+        .animate-marquee:hover {
+            animation-play-state: paused;
+        }
+        .hero-pattern {
+            background-color: #0a2540;
+            background-image: radial-gradient(rgba(29, 111, 184, 0.22) 1px, transparent 1px),
+                              radial-gradient(rgba(212, 162, 60, 0.12) 1px, #0a2540 1px);
+            background-size: 32px 32px;
+            background-position: 0 0, 16px 16px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-cream antialiased selection:bg-gold-500 selection:text-navy-900 overflow-x-hidden">
+
+    <!-- Top Heritage Contact & Notice Bar -->
+    <div class="bg-navy-950 text-slate-200 text-xs sm:text-sm border-b border-navy-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4">
+                <a href="tel:+918650070888" class="flex items-center gap-1.5 hover:text-gold-400 transition">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-gold-400"></i>
+                    <span>086500 70888</span>
+                </a>
+                <span class="hidden md:inline text-navy-700">|</span>
+                <span class="flex items-center gap-1.5">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400"></i>
+                    <span>Bilsi Road, Bisauli, Budaun (U.P.) 243720</span>
+                </span>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="flex items-center gap-1.5 text-gold-300 font-medium">
+                    <i data-lucide="clock" class="w-3.5 h-3.5"></i>
+                    <span>Mon – Sat: 8:30 AM – 3:30 PM</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Notice Board Ticker -->
+    <div class="bg-gold-500 text-navy-950 font-medium text-xs sm:text-sm py-2 overflow-hidden shadow-inner">
+        <div class="max-w-7xl mx-auto px-4 flex items-center">
+            <span class="bg-navy-900 text-gold-400 font-bold uppercase tracking-wider text-[10px] sm:text-xs px-2.5 py-1 rounded mr-3 shrink-0 flex items-center gap-1">
+                <span class="w-2 h-2 rounded-full bg-gold-400 animate-ping"></span> Notice
+            </span>
+            <div class="overflow-hidden relative w-full">
+                <div class="animate-marquee gap-12">
+                    <span>🎓 <strong>Admissions Open for Academic Session 2026–27</strong> (Nursery to Class XII) — Limited Seats Available!</span>
+                    <span>🏆 Inter-House Annual Sports & Cultural Meet Registration Open at School Office.</span>
+                    <span>🚌 GPS-Enabled Safe Bus Transport Available Across Bisauli, Bilsi Road, Mundia & Nearby Areas.</span>
+                    <span>🎓 <strong>Admissions Open for Academic Session 2026–27</strong> (Nursery to Class XII) — Limited Seats Available!</span>
+                    <span>🏆 Inter-House Annual Sports & Cultural Meet Registration Open at School Office.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Sticky Header & Navigation -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Custom SVG Convent Crest Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 shrink-0 transition-transform duration-300 group-hover:scale-105">
+                        <svg viewBox="0 0 100 100" class="w-full h-full drop-shadow-sm" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Outer Gold Shield -->
+                            <path d="M50 4 L90 18 V48 C90 73 72 89 50 96 C28 89 10 73 10 48 V18 L50 4 Z" fill="#0B1D3A" stroke="#D4AF37" stroke-width="4"/>
+                            <!-- Inner Crest Border -->
+                            <path d="M50 10 L83 22 V47 C83 68 68 82 50 88 C32 82 17 68 17 47 V22 L50 10 Z" fill="none" stroke="#E5BF4B" stroke-width="1.5" stroke-dasharray="3 2"/>
+                            <!-- Open Book Icon -->
+                            <path d="M28 52 C35 49 44 50 50 55 C56 50 65 49 72 52 V68 C65 65 56 66 50 71 C44 66 35 65 28 68 Z" fill="#FAF8F5" stroke="#D4AF37" stroke-width="1.5"/>
+                            <line x1="50" y1="55" x2="50" y2="71" stroke="#0B1D3A" stroke-width="1.5"/>
+                            <!-- Torch of Knowledge -->
+                            <path d="M47 46 L53 46 L51 35 L49 35 Z" fill="#D4AF37"/>
+                            <path d="M50 20 C54 25 55 30 50 34 C45 30 46 25 50 20 Z" fill="#F3D678"/>
+                            <!-- Motto Ribbon -->
+                            <text x="50" y="81" font-family="serif" font-size="7.5" font-weight="bold" fill="#F3D678" text-anchor="middle" letter-spacing="1">WISDOM &amp; VIRTUE</text>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-serif text-xl sm:text-2xl font-extrabold text-navy-900 tracking-tight leading-none">
+                            DE PAUL SCHOOL
+                        </span>
+                        <span class="block text-[11px] sm:text-xs font-semibold uppercase tracking-[0.18em] text-gold-600 mt-1">
+                            Bisauli • English Medium Convent
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-navy-900">
+                    <a href="#about" class="hover:text-gold-600 transition">About Us</a>
+                    <a href="#academics" class="hover:text-gold-600 transition">Academics</a>
+                    <a href="#facilities" class="hover:text-gold-600 transition">Campus & Facilities</a>
+                    <a href="#fee-estimator" class="hover:text-gold-600 transition">Fee Guide</a>
+                    <a href="#gallery" class="hover:text-gold-600 transition">Gallery</a>
+                    <a href="#contact" class="hover:text-gold-600 transition">Contact</a>
+                </nav>
+
+                <!-- Header CTA Buttons -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <button onclick="openAdmissionModal()" class="bg-navy-900 hover:bg-navy-800 text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow-md hover:shadow-lg transition flex items-center gap-2 border border-gold-500/40">
+                        <span>Apply 2026–27</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4 text-gold-400"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" aria-label="Toggle Menu" class="lg:hidden p-2.5 rounded-xl text-navy-900 hover:bg-slate-100 transition">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+            <a href="#about" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-navy-900 hover:bg-navy-900/5">About School & Principal</a>
+            <a href="#academics" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-navy-900 hover:bg-navy-900/5">Academic Wings</a>
+            <a href="#facilities" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-navy-900 hover:bg-navy-900/5">Campus & Smart Facilities</a>
+            <a href="#fee-estimator" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-navy-900 hover:bg-navy-900/5">Fee & Admission Guide</a>
+            <a href="#gallery" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-navy-900 hover:bg-navy-900/5">Campus Gallery</a>
+            <a href="#contact" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-navy-900 hover:bg-navy-900/5">Location & Contact</a>
+            <div class="pt-3 grid grid-cols-2 gap-3">
+                <button onclick="openAdmissionModal()" class="w-full bg-navy-900 text-white font-semibold py-3 rounded-xl text-sm shadow">
+                    Admission Enquiry
+                </button>
+                <a href="tel:+918650070888" class="w-full bg-gold-500 text-navy-950 font-bold py-3 rounded-xl text-sm text-center shadow flex items-center justify-center gap-1.5">
+                    <i data-lucide="phone-call" class="w-4 h-4"></i> Call Office
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative hero-pattern text-white overflow-hidden">
+        <!-- Decorative Gold Ambient Glow -->
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-gold-500/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-24 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                
+                <!-- Left Hero Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-navy-800/90 border border-gold-500/40 text-gold-300 text-xs sm:text-sm font-semibold tracking-wide">
+                        <i data-lucide="award" class="w-4 h-4 text-gold-400"></i>
+                        <span>Bisauli's Premier English-Medium Convent Institution</span>
+                    </div>
+
+                    <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+                        Shaping Bright Minds with <span class="text-gold-400 italic">Wisdom, Discipline</span> &amp; Values
+                    </h1>
+
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Located on Bilsi Road, Bisauli, <strong>De Paul School</strong> blends strong moral character with modern English-medium academics, smart classrooms, and holistic co-curricular excellence.
+                    </p>
+
+                    <!-- Primary Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <button onclick="openAdmissionModal()" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-base shadow-lg shadow-gold-500/20 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                            <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                            <span>Enquire for Admission 2026–27</span>
+                        </button>
+                        <a href="https://wa.me/918650070888?text=Hello%20De%20Paul%20School%20Bisauli%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20for%20the%20upcoming%20session." target="_blank" rel="noopener" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-skybrand-500/25 hover:bg-skybrand-500/40 text-white border border-skybrand-500/50 font-semibold text-base transition flex items-center justify-center gap-2">
+                            <i data-lucide="message-circle" class="w-5 h-5 text-emerald-400"></i>
+                            <span>WhatsApp Admission Desk</span>
+                        </a>
+                    </div>
+
+                    <!-- Key Trust Stats -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-navy-800 max-w-xl mx-auto lg:mx-0">
+                        <div>
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-gold-400">100%</p>
+                            <p class="text-xs sm:text-sm text-slate-300">English Medium Environment</p>
+                        </div>
+                        <div>
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-gold-400">25:1</p>
+                            <p class="text-xs sm:text-sm text-slate-300">Student-Teacher Attention</p>
+                        </div>
+                        <div>
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-gold-400">Safe</p>
+                            <p class="text-xs sm:text-sm text-slate-300">CCTV &amp; GPS Transport</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Visual Card: Full Promotional Campus Banner (1000701078.png) -->
+                <div class="lg:col-span-5">
+                    <div class="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-gold-500/50 bg-navy-900">
+                        <!-- Full aspect-ratio container so the banner text, logo, campus & collage are never cropped -->
+                        <div class="w-full bg-navy-950">
+                            <img 
+                                src="1000701078.png" 
+                                alt="De Paul School Bisauli, Budaun - Let Your Light Shine | Knowledge Is Power"
+                                onerror="this.onerror=null; this.src='https://placehold.co/1200x675/0a2540/d4a23c?text=De+Paul+School+Bisauli+-+Place+1000701078.png+Here';"
+                                class="w-full h-auto object-contain block"
+                            >
+                        </div>
+                        
+                        <!-- Campus Admission Quick Bar below Banner -->
+                        <div class="p-5 bg-navy-950/95 border-t border-gold-500/30">
+                            <div class="glass-card text-navy-900 p-4 sm:p-5 rounded-2xl shadow-xl border border-gold-400/50">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div>
+                                        <span class="text-[11px] font-bold uppercase tracking-wider text-skybrand-600">Bilsi Road Campus • Bisauli, Budaun</span>
+                                        <h3 class="font-serif text-lg font-bold text-navy-900 mt-0.5">Registrations Open 2026–27</h3>
+                                        <p class="text-xs text-slate-600 mt-1">Visit campus Mon–Sat (8:30 AM – 3:30 PM) for prospectus &amp; campus tour.</p>
+                                    </div>
+                                    <div class="w-11 h-11 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center shrink-0">
+                                        <i data-lucide="calendar-check" class="w-5 h-5"></i>
+                                    </div>
+                                </div>
+                                <div class="mt-3.5 pt-3 border-t border-slate-200 flex items-center justify-between text-xs font-semibold">
+                                    <span class="text-emerald-700 flex items-center gap-1.5">
+                                        <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Helpdesk Active
+                                    </span>
+                                    <a href="tel:+918650070888" class="text-navy-900 underline hover:text-skybrand-600">086500 70888 →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Full-Width Campus Showcase Banner Strip -->
+    <section class="py-10 sm:py-14 bg-gradient-to-b from-navy-950 to-navy-900 border-b border-gold-500/30">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-5">
+                <div>
+                    <span class="text-gold-400 font-bold text-xs uppercase tracking-widest">Official Campus Overview</span>
+                    <h2 class="font-serif text-2xl sm:text-3xl font-bold text-white mt-0.5">De Paul School, Bisauli (Budaun)</h2>
+                </div>
+                <span class="inline-flex items-center gap-2 text-xs font-semibold text-gold-300 bg-navy-800/90 border border-gold-500/30 px-3.5 py-1.5 rounded-full self-start sm:self-auto">
+                    <i data-lucide="sparkles" class="w-3.5 h-3.5 text-gold-400"></i> "Let Your Light Shine • Knowledge Is Power"
+                </span>
+            </div>
+            <div class="rounded-3xl overflow-hidden shadow-2xl border-2 border-gold-500/50 bg-navy-950">
+                <img 
+                    src="1000701078.png" 
+                    alt="De Paul School Bisauli Campus Building, Buses, Labs & Sports Banner"
+                    onerror="this.onerror=null; this.src='https://placehold.co/1280x720/0a2540/d4a23c?text=De+Paul+School+Bisauli+Official+Campus+Banner';"
+                    class="w-full h-auto object-contain block"
+                >
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Principal's Message Section -->
+    <section id="about" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Image & Heritage Badge -->
+                <div class="lg:col-span-5 relative">
+                    <div class="rounded-3xl overflow-hidden shadow-xl border border-slate-200">
+                        <img 
+                            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80" 
+                            alt="Principal and Faculty Mentoring Students"
+                            onerror="this.src='https://placehold.co/700x800/132C54/FFFFFF?text=Convent+Education+Excellence'"
+                            class="w-full h-[380px] sm:h-[440px] object-cover"
+                        >
+                    </div>
+                    <!-- Overlapping Quote Card -->
+                    <div class="bg-navy-900 text-white p-6 rounded-2xl shadow-xl border-l-4 border-gold-500 max-w-xs sm:max-w-sm -mt-14 ml-4 sm:ml-8 relative z-10">
+                        <p class="font-serif italic text-sm sm:text-base text-gold-300">
+                            "Education is not merely the learning of facts, but the training of the mind to think with integrity and compassion."
+                        </p>
+                        <p class="text-xs uppercase tracking-wider text-slate-300 mt-3 font-semibold">— Principal's Desk, De Paul School</p>
+                    </div>
+                </div>
+
+                <!-- Right Text Content -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-gold-600 font-bold text-xs uppercase tracking-widest">
+                        <span class="w-8 h-0.5 bg-gold-500"></span>
+                        <span>About De Paul School, Bisauli</span>
+                    </div>
+
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 leading-tight">
+                        A Tradition of Convent Discipline &amp; Modern Academic Excellence
+                    </h2>
+
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        Situated conveniently on <strong>Bilsi Road, Bisauli</strong>, De Paul School stands as a beacon of quality English-medium education in the Budaun district. Our institution is dedicated to nurturing confident, articulate, and morally grounded young citizens ready to excel in national and global arenas.
+                    </p>
+
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        Every child receives personalized mentorship from experienced educators who emphasize spoken English fluency, conceptual clarity in Science &amp; Mathematics, digital literacy, and timeless human values.
+                    </p>
+
+                    <!-- Core Pillars Grid -->
+                    <div class="grid sm:grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 rounded-2xl bg-cream border border-slate-200/80 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="book-open-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Convent Spoken English</h4>
+                                <p class="text-xs text-slate-600 mt-1">Daily English communication practice, debates, and reading clubs.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-cream border border-slate-200/80 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="shield-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Values &amp; Character</h4>
+                                <p class="text-xs text-slate-600 mt-1">Structured moral education, punctuality, and respectful conduct.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-cream border border-slate-200/80 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="cpu" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Smart Digital Learning</h4>
+                                <p class="text-xs text-slate-600 mt-1">Audio-visual smart classes and modern computer &amp; science labs.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-cream border border-slate-200/80 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="trophy" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Sports &amp; Arts</h4>
+                                <p class="text-xs text-slate-600 mt-1">Spacious playground, yoga, music, art, and annual cultural fests.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Wings Section -->
+    <section id="academics" class="py-16 sm:py-24 bg-cream border-y border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-gold-600 font-bold text-xs uppercase tracking-widest">Structured Learning Stages</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Our Academic Wings</h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">
+                    A carefully graded curriculum designed to match every developmental milestone from early childhood to senior classes.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Wing 1 -->
+                <div class="bg-white rounded-3xl p-7 shadow-sm hover:shadow-xl transition duration-300 border border-slate-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center mb-5 group-hover:bg-navy-900 group-hover:text-gold-400 transition">
+                            <i data-lucide="sparkles" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-xs font-bold text-gold-600 uppercase tracking-wider">Nursery – UKG</span>
+                        <h3 class="font-serif text-xl font-bold text-navy-900 mt-1">Pre-Primary Wing</h3>
+                        <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                            Montessori-inspired play-way learning, phonics, storytelling, motor skills, and joyful social habits in a caring environment.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-navy-900">
+                        <span>Age: 3+ Years</span>
+                        <button onclick="openAdmissionModal('Pre-Primary (Nursery - UKG)')" class="text-gold-600 hover:underline">Enquire →</button>
+                    </div>
+                </div>
+
+                <!-- Wing 2 -->
+                <div class="bg-white rounded-3xl p-7 shadow-sm hover:shadow-xl transition duration-300 border border-slate-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-sky-100 text-sky-700 flex items-center justify-center mb-5 group-hover:bg-navy-900 group-hover:text-gold-400 transition">
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-xs font-bold text-gold-600 uppercase tracking-wider">Classes I – V</span>
+                        <h3 class="font-serif text-xl font-bold text-navy-900 mt-1">Primary Wing</h3>
+                        <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                            Building strong foundations in English grammar, creative writing, mental mathematics, environmental awareness, and computer basics.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-navy-900">
+                        <span>Foundation Stage</span>
+                        <button onclick="openAdmissionModal('Primary Wing (Class I - V)')" class="text-gold-600 hover:underline">Enquire →</button>
+                    </div>
+                </div>
+
+                <!-- Wing 3 -->
+                <div class="bg-white rounded-3xl p-7 shadow-sm hover:shadow-xl transition duration-300 border border-slate-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center mb-5 group-hover:bg-navy-900 group-hover:text-gold-400 transition">
+                            <i data-lucide="microscope" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-xs font-bold text-gold-600 uppercase tracking-wider">Classes VI – VIII</span>
+                        <h3 class="font-serif text-xl font-bold text-navy-900 mt-1">Middle Wing</h3>
+                        <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                            Experiential lab learning in Science, analytical reasoning, coding, public speaking, and Olympiad readiness.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-navy-900">
+                        <span>Exploratory Stage</span>
+                        <button onclick="openAdmissionModal('Middle Wing (Class VI - VIII)')" class="text-gold-600 hover:underline">Enquire →</button>
+                    </div>
+                </div>
+
+                <!-- Wing 4 -->
+                <div class="bg-white rounded-3xl p-7 shadow-sm hover:shadow-xl transition duration-300 border border-slate-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-5 group-hover:bg-navy-900 group-hover:text-gold-400 transition">
+                            <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-xs font-bold text-gold-600 uppercase tracking-wider">Classes IX – XII</span>
+                        <h3 class="font-serif text-xl font-bold text-navy-900 mt-1">Senior Wing</h3>
+                        <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                            Focused board exam preparation, career counseling, practical laboratory mastery, and leadership opportunities.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-navy-900">
+                        <span>Board &amp; Career Focus</span>
+                        <button onclick="openAdmissionModal('Senior Wing (Class IX - XII)')" class="text-gold-600 hover:underline">Enquire →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Campus & Facilities Section -->
+    <section id="facilities" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+                <div>
+                    <span class="text-gold-600 font-bold text-xs uppercase tracking-widest">World-Class Infrastructure</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Campus &amp; Student Facilities</h2>
+                </div>
+                <p class="text-slate-600 text-sm max-w-md">
+                    Click any facility below to explore how De Paul School creates a safe, inspiring, and technology-enabled campus on Bilsi Road.
+                </p>
+            </div>
+
+            <!-- Interactive Facility Tabs -->
+            <div class="grid lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-5 flex flex-col gap-3" id="facility-tabs">
+                    <button data-tab="smart" class="facility-btn active text-left p-5 rounded-2xl border-2 border-navy-900 bg-navy-900 text-white shadow-md transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-gold-500 text-navy-950 flex items-center justify-center shrink-0">
+                            <i data-lucide="monitor-play" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Digital Smart Classrooms</h4>
+                            <p class="text-xs text-slate-300 mt-0.5">Interactive 3D visual modules &amp; airy rooms</p>
+                        </div>
+                    </button>
+
+                    <button data-tab="labs" class="facility-btn text-left p-5 rounded-2xl border border-slate-200 bg-cream hover:border-navy-900/40 text-navy-900 transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-navy-900/10 text-navy-900 flex items-center justify-center shrink-0">
+                            <i data-lucide="flask-conical" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Science, Math &amp; Computer Labs</h4>
+                            <p class="text-xs text-slate-600 mt-0.5">Hands-on experiments &amp; high-speed PCs</p>
+                        </div>
+                    </button>
+
+                    <button data-tab="library" class="facility-btn text-left p-5 rounded-2xl border border-slate-200 bg-cream hover:border-navy-900/40 text-navy-900 transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-navy-900/10 text-navy-900 flex items-center justify-center shrink-0">
+                            <i data-lucide="library" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Convent Library &amp; Reading Room</h4>
+                            <p class="text-xs text-slate-600 mt-0.5">3,500+ encyclopedias, literature &amp; journals</p>
+                        </div>
+                    </button>
+
+                    <button data-tab="transport" class="facility-btn text-left p-5 rounded-2xl border border-slate-200 bg-cream hover:border-navy-900/40 text-navy-900 transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-navy-900/10 text-navy-900 flex items-center justify-center shrink-0">
+                            <i data-lucide="bus" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">GPS Bus Transport &amp; CCTV Security</h4>
+                            <p class="text-xs text-slate-600 mt-0.5">Doorstep pickup across Bisauli &amp; nearby villages</p>
+                        </div>
+                    </button>
+                </div>
+
+                <!-- Dynamic Facility Display Card -->
+                <div class="lg:col-span-7 bg-cream rounded-3xl overflow-hidden border border-slate-200 shadow-lg" id="facility-display">
+                    <div class="relative h-64 sm:h-80">
+                        <img id="facility-img" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80" alt="Smart Classroom" onerror="this.src='https://placehold.co/900x500/0B1D3A/E5BF4B?text=Smart+Classrooms'" class="w-full h-full object-cover">
+                        <div class="absolute top-4 left-4 bg-navy-900/90 backdrop-blur text-gold-400 text-xs font-bold px-3.5 py-1.5 rounded-full border border-gold-500/30" id="facility-badge">
+                            Technology-Enabled Learning
+                        </div>
+                    </div>
+                    <div class="p-6 sm:p-8">
+                        <h3 id="facility-title" class="font-serif text-2xl font-bold text-navy-900">Digital Smart Classrooms</h3>
+                        <p id="facility-desc" class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+                            Our spacious, well-ventilated classrooms are equipped with interactive digital boards that simplify complex Science, Geography, and Mathematics concepts through engaging 3D animations and visual storytelling.
+                        </p>
+                        <ul id="facility-points" class="grid sm:grid-cols-2 gap-2.5 mt-5 text-xs sm:text-sm font-medium text-navy-900">
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i> Ergonomic student seating</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i> Audio-visual English pronunciation</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i> 100% power backup &amp; RO drinking water</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i> Continuous CCTV monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Admission & Fee Guide Section -->
+    <section id="fee-estimator" class="py-16 sm:py-24 bg-navy-900 text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-10 items-center">
+                
+                <div class="lg:col-span-6 space-y-5">
+                    <span class="text-gold-400 font-bold text-xs uppercase tracking-widest">Transparent Parent Desk</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold leading-tight">
+                        Admission Process &amp; Instant Fee Information Request
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        We believe in complete transparency for parents. Select your child's class and transport requirement to request the official 2026–27 fee structure and prospectus directly on WhatsApp.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4">
+                            <span class="w-8 h-8 rounded-full bg-gold-500 text-navy-950 font-bold flex items-center justify-center shrink-0 text-sm">1</span>
+                            <div>
+                                <h4 class="font-bold text-white">Submit Enquiry or Visit Campus</h4>
+                                <p class="text-xs sm:text-sm text-slate-300">Collect registration form at Bilsi Road office (Mon–Sat, 8:30 AM – 3:30 PM).</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <span class="w-8 h-8 rounded-full bg-gold-500 text-navy-950 font-bold flex items-center justify-center shrink-0 text-sm">2</span>
+                            <div>
+                                <h4 class="font-bold text-white">Friendly Student Interaction</h4>
+                                <p class="text-xs sm:text-sm text-slate-300">Informal interaction for Pre-Primary; basic readiness assessment for Class I upwards.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <span class="w-8 h-8 rounded-full bg-gold-500 text-navy-950 font-bold flex items-center justify-center shrink-0 text-sm">3</span>
+                            <div>
+                                <h4 class="font-bold text-white">Document Verification &amp; Enrollment</h4>
+                                <p class="text-xs sm:text-sm text-slate-300">Birth Certificate, Aadhaar Copy, Passport Photos &amp; Previous TC (if applicable).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Quick Fee & Seat Check Card -->
+                <div class="lg:col-span-6">
+                    <div class="bg-white text-navy-900 rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-gold-500/50">
+                        <h3 class="font-serif text-2xl font-bold text-navy-900">Get 2026–27 Fee Card on WhatsApp</h3>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1">Fill in basic details to get instant prospectus &amp; fee details from our admission counselor.</p>
+
+                        <form id="quick-fee-form" class="mt-6 space-y-4">
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">Student Name *</label>
+                                    <input type="text" id="qf-student" required placeholder="e.g. Aarav Sharma" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-navy-900 focus:ring-2 focus:ring-navy-900/20 outline-none text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">Parent Mobile *</label>
+                                    <input type="tel" id="qf-phone" required placeholder="e.g. 98765 43210" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-navy-900 focus:ring-2 focus:ring-navy-900/20 outline-none text-sm">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">Applying For Class *</label>
+                                    <select id="qf-class" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-navy-900 focus:ring-2 focus:ring-navy-900/20 outline-none text-sm bg-white">
+                                        <option value="Nursery / LKG / UKG">Nursery / LKG / UKG</option>
+                                        <option value="Class I to V">Class I to V</option>
+                                        <option value="Class VI to VIII">Class VI to VIII</option>
+                                        <option value="Class IX to XII">Class IX to XII</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">School Bus Required?</label>
+                                    <select id="qf-bus" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-navy-900 focus:ring-2 focus:ring-navy-900/20 outline-none text-sm bg-white">
+                                        <option value="Yes - Need Bus Route Info">Yes (Bisauli / Nearby Route)</option>
+                                        <option value="No - Self Drop">No (Self Drop)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm sm:text-base shadow-lg transition flex items-center justify-center gap-2">
+                                <i data-lucide="send" class="w-4 h-4"></i>
+                                <span>Send Enquiry &amp; Get Fee Structure</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life Gallery -->
+    <section id="gallery" class="py-16 sm:py-24 bg-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-gold-600 font-bold text-xs uppercase tracking-widest">Life at De Paul</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Campus Moments &amp; Activities</h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-2">Beyond textbooks—celebrating curiosity, teamwork, sports, and cultural heritage.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="group relative rounded-2xl overflow-hidden shadow-md h-64 bg-navy-900 border border-gold-500/40">
+                    <img src="1000701078.png" alt="De Paul School Bisauli Main Campus & Students" onerror="this.onerror=null; this.src='https://placehold.co/600x400/0a2540/d4a23c?text=De+Paul+School+Campus';" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950/85 via-transparent to-transparent flex items-end p-5">
+                        <span class="text-white font-serif font-bold text-lg">De Paul Campus &amp; Student Life</span>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden shadow-md h-64">
+                    <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=700&q=80" alt="Interactive Classroom Learning" onerror="this.src='https://placehold.co/600x400/132C54/E5BF4B?text=Interactive+Classes'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent flex items-end p-5">
+                        <span class="text-white font-serif font-bold text-lg">Interactive Classroom Sessions</span>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden shadow-md h-64">
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=700&q=80" alt="Science Laboratory" onerror="this.src='https://placehold.co/600x400/1D3E72/E5BF4B?text=Science+Laboratory'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent flex items-end p-5">
+                        <span class="text-white font-serif font-bold text-lg">Practical Science Laboratories</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="py-16 sm:py-24 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-10 items-stretch">
+                
+                <!-- Contact Details Card -->
+                <div class="lg:col-span-5 bg-navy-900 text-white rounded-3xl p-8 flex flex-col justify-between shadow-xl">
+                    <div>
+                        <span class="text-gold-400 font-bold text-xs uppercase tracking-widest">Visit Our Campus</span>
+                        <h2 class="font-serif text-3xl font-bold mt-2">De Paul School, Bisauli</h2>
+                        <p class="text-slate-300 text-sm mt-2">Parents are warmly invited to visit the school office during working hours for counseling and campus tours.</p>
+
+                        <div class="space-y-5 mt-8">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-navy-800 border border-gold-500/30 text-gold-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-gold-300">School Address</h4>
+                                    <p class="text-sm text-slate-200 mt-0.5">Bilsi Road, Bisauli, District Budaun, Uttar Pradesh – 243720</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-navy-800 border border-gold-500/30 text-gold-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="phone" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-gold-300">Admission Helpline</h4>
+                                    <a href="tel:+918650070888" class="text-base font-bold text-white hover:text-gold-400 transition mt-0.5 block">086500 70888</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-navy-800 border border-gold-500/30 text-gold-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="clock" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-gold-300">School &amp; Office Hours</h4>
+                                    <p class="text-sm text-slate-200 mt-0.5">Monday – Saturday: 8:30 AM – 3:30 PM<br><span class="text-xs text-slate-400">Sunday: Closed</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-navy-800 grid grid-cols-2 gap-3">
+                        <a href="tel:+918650070888" class="py-3 px-4 rounded-xl bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-sm text-center transition flex items-center justify-center gap-2">
+                            <i data-lucide="phone-call" class="w-4 h-4"></i> Call Now
+                        </a>
+                        <a href="https://maps.google.com/?q=De+Paul+School+Bilsi+Road+Bisauli+243720" target="_blank" rel="noopener" class="py-3 px-4 rounded-xl bg-navy-800 hover:bg-navy-700 text-white font-semibold text-sm text-center border border-white/15 transition flex items-center justify-center gap-2">
+                            <i data-lucide="navigation" class="w-4 h-4 text-gold-400"></i> Directions
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Embedded Google Map Frame -->
+                <div class="lg:col-span-7 rounded-3xl overflow-hidden shadow-lg border border-slate-200 min-h-[340px] bg-slate-100 relative">
+                    <iframe 
+                        title="De Paul School Bisauli Location Map"
+                        src="https://www.google.com/maps?q=De+Paul+School+Bilsi+Road+Bisauli+Uttar+Pradesh+243720&output=embed"
+                        class="w-full h-full min-h-[360px] border-0"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-slate-400 pt-14 pb-24 sm:pb-12 border-t border-navy-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-navy-800">
+                <div class="lg:col-span-2">
+                    <h3 class="font-serif text-xl font-bold text-white">DE PAUL SCHOOL, BISAULI</h3>
+                    <p class="text-xs uppercase tracking-widest text-gold-400 mt-1">Wisdom • Discipline • Excellence</p>
+                    <p class="text-sm text-slate-400 mt-4 max-w-md leading-relaxed">
+                        Committed to providing high-standard English-medium convent education at Bilsi Road, Bisauli, nurturing future leaders with strong academic and ethical foundations.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Quick Links</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li><a href="#about" class="hover:text-gold-400 transition">About Institution</a></li>
+                        <li><a href="#academics" class="hover:text-gold-400 transition">Academic Wings</a></li>
+                        <li><a href="#facilities" class="hover:text-gold-400 transition">Smart Facilities</a></li>
+                        <li><a href="#fee-estimator" class="hover:text-gold-400 transition">Admissions 2026–27</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Contact Office</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li>Bilsi Road, Bisauli, U.P. 243720</li>
+                        <li>Phone: <a href="tel:+918650070888" class="text-gold-400 hover:underline">086500 70888</a></li>
+                        <li>Mon – Sat: 8:30 AM – 3:30 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row justify-between items-center text-xs gap-3">
+                <p>© 2026 De Paul School, Bisauli. All Rights Reserved.</p>
+                <p class="text-slate-500">Official School Portal • Bilsi Road, Bisauli</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile Bottom Quick Action Bar -->
+    <div class="fixed bottom-0 inset-x-0 z-40 sm:hidden bg-navy-950/95 backdrop-blur border-t border-gold-500/30 px-3 py-2.5 grid grid-cols-2 gap-2.5 shadow-2xl">
+        <a href="tel:+918650070888" class="py-2.5 rounded-xl bg-gold-500 text-navy-950 font-bold text-xs flex items-center justify-center gap-1.5">
+            <i data-lucide="phone-call" class="w-4 h-4"></i> Call 086500 70888
+        </a>
+        <button onclick="openAdmissionModal()" class="py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5">
+            <i data-lucide="message-circle" class="w-4 h-4"></i> Admission Enquiry
+        </button>
+    </div>
+
+    <!-- Admission Enquiry Modal -->
+    <div id="admission-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-navy-950/80 backdrop-blur-sm">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border-2 border-gold-500 relative animate-fadeIn">
+            <button onclick="closeAdmissionModal()" aria-label="Close Modal" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center">
+                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <span class="text-[11px] font-bold uppercase tracking-wider text-gold-600">Session 2026–27</span>
+                    <h3 class="font-serif text-xl font-bold text-navy-900">Admission Registration</h3>
+                </div>
+            </div>
+
+            <form id="modal-admission-form" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Child's Full Name *</label>
+                    <input type="text" id="mod-student" required placeholder="Enter student name" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-navy-900 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Parent / Guardian Name *</label>
+                    <input type="text" id="mod-parent" required placeholder="Enter parent name" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-navy-900 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Class Seeking Admission *</label>
+                    <select id="mod-class" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-navy-900 outline-none text-sm bg-white">
+                        <option value="Pre-Primary (Nursery - UKG)">Pre-Primary (Nursery - UKG)</option>
+                        <option value="Primary Wing (Class I - V)">Primary Wing (Class I - V)</option>
+                        <option value="Middle Wing (Class VI - VIII)">Middle Wing (Class VI - VIII)</option>
+                        <option value="Senior Wing (Class IX - XII)">Senior Wing (Class IX - XII)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Village / Locality *</label>
+                    <input type="text" id="mod-address" required placeholder="e.g. Bisauli Town / Bilsi Road" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-navy-900 outline-none text-sm">
+                </div>
+
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-navy-900 hover:bg-navy-800 text-white font-bold text-sm shadow-lg transition flex items-center justify-center gap-2">
+                    <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+                    <span>Send Directly to School WhatsApp</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Interactive JavaScript -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Interactive Facilities Data & Tab Switching
+        const facilityData = {
+            smart: {
+                badge: "Technology-Enabled Learning",
+                title: "Digital Smart Classrooms",
+                desc: "Our spacious, well-ventilated classrooms are equipped with interactive digital boards that simplify complex Science, Geography, and Mathematics concepts through engaging 3D animations and visual storytelling.",
+                img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80",
+                points: [
+                    "Ergonomic student seating",
+                    "Audio-visual English pronunciation",
+                    "100% power backup & RO water",
+                    "Continuous CCTV monitoring"
+                ]
+            },
+            labs: {
+                badge: "Experiential Practical Education",
+                title: "Science, Math & Computer Labs",
+                desc: "Dedicated laboratories for Physics, Chemistry, Biology, and Information Technology encourage students to test theories hands-on under guided faculty supervision.",
+                img: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80",
+                points: [
+                    "Modern computer workstations",
+                    "Safe & calibrated science apparatus",
+                    "Interactive Mathematics models",
+                    "Dedicated lab demonstrators"
+                ]
+            },
+            library: {
+                badge: "Cultivating Reading Habits",
+                title: "Convent Library & Reading Room",
+                desc: "A quiet, inspiring sanctuary stocked with over 3,500 reference books, English classics, encyclopedias, competitive exam guides, and daily newspapers.",
+                img: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+                points: [
+                    "Age-graded story & reference books",
+                    "Weekly library reading periods",
+                    "English & Hindi periodicals",
+                    "Peaceful study environment"
+                ]
+            },
+            transport: {
+                badge: "Safe & Punctual Commute",
+                title: "GPS Bus Transport & Campus Security",
+                desc: "Well-maintained fleet of school buses covering Bisauli town, Bilsi Road, and surrounding villages with trained drivers, attendants, and GPS tracking.",
+                img: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=900&q=80",
+                points: [
+                    "GPS-enabled bus fleet",
+                    "Trained & verified drivers",
+                    "Gated campus with security guard",
+                    "First-aid kits in every vehicle"
+                ]
+            }
+        };
+
+        document.querySelectorAll('.facility-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Reset all buttons
+                document.querySelectorAll('.facility-btn').forEach(b => {
+                    b.classList.remove('active', 'border-2', 'border-navy-900', 'bg-navy-900', 'text-white', 'shadow-md');
+                    b.classList.add('border', 'border-slate-200', 'bg-cream', 'text-navy-900');
+                    const iconBox = b.querySelector('div');
+                    iconBox.classList.remove('bg-gold-500', 'text-navy-950');
+                    iconBox.classList.add('bg-navy-900/10', 'text-navy-900');
+                    const sub = b.querySelector('p');
+                    sub.classList.remove('text-slate-300');
+                    sub.classList.add('text-slate-600');
+                });
+
+                // Activate clicked button
+                btn.classList.add('active', 'border-2', 'border-navy-900', 'bg-navy-900', 'text-white', 'shadow-md');
+                btn.classList.remove('border', 'border-slate-200', 'bg-cream', 'text-navy-900');
+                const activeIcon = btn.querySelector('div');
+                activeIcon.classList.add('bg-gold-500', 'text-navy-950');
+                activeIcon.classList.remove('bg-navy-900/10', 'text-navy-900');
+                const activeSub = btn.querySelector('p');
+                activeSub.classList.add('text-slate-300');
+                activeSub.classList.remove('text-slate-600');
+
+                // Update display panel
+                const key = btn.getAttribute('data-tab');
+                const data = facilityData[key];
+                document.getElementById('facility-badge').textContent = data.badge;
+                document.getElementById('facility-title').textContent = data.title;
+                document.getElementById('facility-desc').textContent = data.desc;
+                document.getElementById('facility-img').src = data.img;
+                
+                const pointsContainer = document.getElementById('facility-points');
+                pointsContainer.innerHTML = data.points.map(pt => 
+                    `<li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i> ${pt}</li>`
+                ).join('');
+                lucide.createIcons();
+            });
+        });
+
+        // Admission Modal Logic
+        const modal = document.getElementById('admission-modal');
+        function openAdmissionModal(selectedClass = '') {
+            if (selectedClass) {
+                document.getElementById('mod-class').value = selectedClass;
+            }
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+        function closeAdmissionModal() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeAdmissionModal();
+        });
+
+        // Send Modal Form to School WhatsApp (08650070888)
+        document.getElementById('modal-admission-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const student = document.getElementById('mod-student').value.trim();
+            const parent = document.getElementById('mod-parent').value.trim();
+            const cls = document.getElementById('mod-class').value;
+            const addr = document.getElementById('mod-address').value.trim();
+
+            const msg = `*New Admission Enquiry - De Paul School, Bisauli*%0A%0A` +
+                        `*Student Name:* ${encodeURIComponent(student)}%0A` +
+                        `*Parent Name:* ${encodeURIComponent(parent)}%0A` +
+                        `*Class:* ${encodeURIComponent(cls)}%0A` +
+                        `*Locality:* ${encodeURIComponent(addr)}%0A%0A` +
+                        `Please share admission procedure and fee details.`;
+
+            window.open(`https://wa.me/918650070888?text=${msg}`, '_blank');
+            closeAdmissionModal();
+        });
+
+        // Send Quick Fee Form to School WhatsApp
+        document.getElementById('quick-fee-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const student = document.getElementById('qf-student').value.trim();
+            const phone = document.getElementById('qf-phone').value.trim();
+            const cls = document.getElementById('qf-class').value;
+            const bus = document.getElementById('qf-bus').value;
+
+            const msg = `*Fee Structure & Prospectus Request - De Paul School*%0A%0A` +
+                        `*Student:* ${encodeURIComponent(student)}%0A` +
+                        `*Parent Mobile:* ${encodeURIComponent(phone)}%0A` +
+                        `*Class:* ${encodeURIComponent(cls)}%0A` +
+                        `*Transport:* ${encodeURIComponent(bus)}`;
+
+            window.open(`https://wa.me/918650070888?text=${msg}`, '_blank');
+        });
+    </script>
+</body>
+</html>
